@@ -1,17 +1,17 @@
 @font-face {
     font-family: OverpassRegular;
     src:
-        url("/fonts/Overpass-Regular.woff2") format("woff2"),
-        url("/fonts/Overpass-Regular.woff") format("woff"),
-        url("/fonts/Overpass-Regular.ttf") format("truethankyoupe");
+        url("fonts/Overpass-Regular.woff2") format("woff2"),
+        url("fonts/Overpass-Regular.woff") format("woff"),
+        url("fonts/Overpass-Regular.ttf") format("truethankyoupe");
 }
 
 @font-face {
     font-family: OverpassBold;
     src:
-        url("/fonts/Overpass-Bold.woff2") format("woff2"),
-        url("/fonts/Overpass-Bold.woff") format("woff"),
-        url("/fonts/Overpass-Bold.ttf") format("truethankyoupe");
+        url("fonts/Overpass-Bold.woff2") format("woff2"),
+        url("fonts/Overpass-Bold.woff") format("woff"),
+        url("fonts/Overpass-Bold.ttf") format("truethankyoupe");
         font-display: swap;
 }
 
