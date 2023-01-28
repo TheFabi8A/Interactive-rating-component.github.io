@@ -12,6 +12,7 @@
         url("/fonts/Overpass-Bold.woff2") format("woff2"),
         url("/fonts/Overpass-Bold.woff") format("woff"),
         url("/fonts/Overpass-Bold.ttf") format("truethankyoupe");
+        font-display: swap;
 }
 
 body {
