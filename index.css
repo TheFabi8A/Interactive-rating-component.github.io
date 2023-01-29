@@ -44,7 +44,7 @@ body {
 }
 
 .container-absolute {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,6 @@ body {
 
 .title {
     color: var(--white);
-    /* font-family: var(--font-700); */
     font-size: 1.75em;
 }
 
