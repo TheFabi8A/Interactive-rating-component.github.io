@@ -4,6 +4,7 @@
         url("fonts/Overpass-Regular.woff2") format("woff2"),
         url("fonts/Overpass-Regular.woff") format("woff"),
         url("fonts/Overpass-Regular.ttf") format("truetype");
+        font-display: swap;
 }
 
 @font-face {
@@ -24,6 +25,8 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -57,10 +60,11 @@ body {
     gap: 20px;
     padding: 25px;
     color: var(--light-grey);
-    background: radial-gradient(farthest-corner at 50% 0, var(--dark-blue) 25%, var(--very-dark-blue));
+    background: radial-gradient(circle 400px at top right, var(--dark-blue) 50%, var(--very-dark-blue));
     border-radius: 25px;
     max-width: 375px;
     font-family: var(--font-400);
+    outline: 2px solid var(--dark-blue);
 }
 
 [class$="thankyou"] {
@@ -69,9 +73,14 @@ body {
     display: none;
 }
 
+.paragraph {
+    font-size: 0.95em;
+}
+
 .star-svg {
-    width: 5%;
-    padding: 15px;
+    width: 44px;
+    height: 42px;
+    padding: 10px;
     border-radius: 50%;
     overflow: visible;
     background-color: var(--dark-blue);
@@ -79,8 +88,8 @@ body {
 
 .title {
     color: var(--white);
-    font-family: var(--font-700);
-    font-size: 2em;
+    /* font-family: var(--font-700); */
+    font-size: 1.75em;
 }
 
 .options {
