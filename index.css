@@ -27,6 +27,11 @@
 body {
     background-color: var(--very-dark-blue);
     font-size: 15px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 :root {
@@ -41,17 +46,6 @@ body {
 
     --font-400: overpassregular;
     --font-700: overpassbold;
-}
-
-.container-absolute {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    max-width: 1440px;
-    padding: 0 15px;
-    margin: 0 auto;
 }
 
 [class^="card-container"] {
@@ -147,4 +141,10 @@ body {
 
 .options > button:focus {
     background-color: var(--orange);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
 }
